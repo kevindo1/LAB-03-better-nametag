@@ -14,8 +14,8 @@ body, html {
 }
 
 header {
-    width: 400px;
     background-color: red;
+    width: 400px;
     text-align: center;
     color: white;
     margin-top: 10px;
@@ -50,9 +50,24 @@ main {
 }
 
 footer {
+    background-color: red;
     height: 35px;
     width: 400px;
-    background-color: red;
     margin-left: 10px;
     border-radius: 0 0 20px 20px;
+}
+
+#colors {
+    margin-top: 10px;
+    margin-left: 140px;
+    
+}
+
+#pronoun-button, #font-button {
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+#pronouns {
+    margin-left: 180px;
 }
