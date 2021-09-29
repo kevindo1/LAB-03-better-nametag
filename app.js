@@ -11,6 +11,6 @@ const firstName = document.getElementById('first-name');
   // update DOM to reflect the new state
 
 button.addEventListener('click', ()=>{
-  let newName = nameInput.value;
-  firstName.textContent = newName;
+    let newName = nameInput.value;
+    firstName.textContent = newName;
 });
