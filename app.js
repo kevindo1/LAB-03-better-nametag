@@ -26,6 +26,8 @@ const cursive = document.getElementById('Cursive');
   // use user input to update state 
   // update DOM to reflect the new state
 
+
+
 serif.addEventListener('click', ()=> {
     firstName.style.fontFamily = 'Serif';
 });
